@@ -5,7 +5,7 @@ void displayNumbers(int num[][2]);
 
 int main() {
 	int num[2][2];
-	printf("Enter 4 number (2X2): ");
+	printf("Enter 4 numbers (2X2): ");
 
 	for(int i = 0; i < 2; i++) {
 		for(int j = 0; j < 2; j++) {
