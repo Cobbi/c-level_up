@@ -6,7 +6,7 @@
 
 int voter() {
 	int age;
-	char name[30];
+	char name[50];
 
 	printf("Enter name: ");
 	scanf("%s", name);
