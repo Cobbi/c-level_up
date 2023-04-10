@@ -22,9 +22,9 @@
 
    A linked list is designed depending on its use. The 3 most common types of a linked list are:
 
-   * Singly Linked List
-   * Doubly Linked List
-   * Circular Linked List
+   * Singly Linked Lists
+   * Doubly Linked Lists
+   * Circular Linked Lists
 
    ** Representation of linked list
     * A data item.
@@ -71,9 +71,9 @@ int main(int argc, char const *argv[])
 {
   // Initialize nodes
   struct node *head;
-  struct node *one = NULL;
-  struct node *two = NULL;
-  struct node *three = NULL;
+  struct node *one;
+  struct node *two;
+  struct node *three;
 
   // Allocate memory
   one = malloc(sizeof(struct node));
