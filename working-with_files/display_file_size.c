@@ -5,13 +5,13 @@ int main()
     char filename[80];
     long length;
 
-    printf("Enter File name: ");
+    printf("Enter file name: ");
     gets(filename);
     fp = fopen(filename, rb);
 
     if (fp == NULL)
     {
-        printf("File Not Found!\n");
+        printf("File not found!\n");
     }
     else
     {
