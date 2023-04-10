@@ -12,11 +12,11 @@ A file is a container in computer storage devices used for storing data.
 
 int main() {
     int num; 
-    FILE *fptr;
+    FILE *fpt;
 
-    fptr = fopen("program.txt", "w");
+    fpt = fopen("program.txt", "w");
 
-    if (fptr == NULL) {
+    if (fpt == NULL) {
         printf("Error!");
         exit(1);
     }
@@ -24,8 +24,8 @@ int main() {
     printf("Enter num: ");
     scanf("%d", &num);
 
-    fprintf(fptr, "\n%d\n", num);
-    fclose(fptr);
+    fprintf(fpt, "\n%d\n", num);
+    fclose(fpt);
 
     return 0;
 }
