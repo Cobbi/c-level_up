@@ -4,7 +4,7 @@
 // student Structure
 struct student {
     char name[50];
-    int height;
+    int age;
 };
 int main() {
     // Student struct variable 
@@ -20,8 +20,8 @@ int main() {
         //fgets("%s", sizeof(stud1), stud1[i].name);
         scanf("%s", stud1[i].name);
 
-        printf("Enter height: ");
-        scanf("%d", &stud1[i].height);
+        printf("Enter age: ");
+        scanf("%d", &stud1[i].age);
     }
 
     fwrite(stud1, sizeof(stud1), 1, fptr);
@@ -31,7 +31,7 @@ int main() {
     fread(stud2, sizeof(stud2), 1, fptr);
 
     for(i = 0; i < 5; i++) {
-        printf("\n\nName: %s\nHeight: %d\n", stud2[i].name, stud2[i].height);
+        printf("\n\nName: %s\nAge: %d\n", stud2[i].name, stud2[i].age);
     }
     fclose(fptr);
 return 0;
