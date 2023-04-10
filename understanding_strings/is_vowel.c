@@ -3,15 +3,15 @@
 
 int main(int argc, char const *argv[])
 {
-	char c;
+	char ch;
 	printf("Enter a letter: ");
-	scanf("%c", &c);
+	scanf("%c", &ch);
 
-	if (c == 'A' || c == 'a' || c == 'E' || c == 'e' || c == 'I' || c == 'i' || c == 'O' || c == 'o' || c == 'U' || c == 'u') 
+	if (ch == 'A' || ch == 'a' || ch == 'E' || ch == 'e' || ch == 'I' || ch == 'i' || ch == 'O' || ch == 'o' || ch == 'U' || ch == 'u') 
 	{
-		printf("\n%c is a Vowel\n", c);
+		printf("\n%c is a vowel\n", c);
 	} else {
-		printf("\nLetter entered is not a Vowel\n");
+		printf("\nLetter entered is not a vowel\n");
 	}
 	return 0;
 }
